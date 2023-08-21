@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../img/cyber.logo-black.png">
+        <link rel="stylesheet" href="../css/sign-in.css">
+
+        <title>Log-in</title>
+    </head>
+<body>
+    <head>
+        <nav>
+            <ul id="ul1">
+                <a href="../index.html"><li><img src="../img/logo-cybergymnasiet.png" alt="logo"></li></a>
+            </ul>
+            <ul id="ul2">
+                <a href="../index.html" ><li>Hem</li></a>
+                <a href="../html/home-about.html"><li>Handlar om</li></a>
+                <a href="../html/News.html"><li>Nyheter</li></a>
+                <a href="../html/sign-in.html" class="active"><li>logga in</li></a>
+            </ul>
+        </nav>
+    </head>
+    <main>
+        <br>
+        <br>
+            <div class="cont">
+                <div class="form sign-in">
+                    <h2>Welcome</h2>
+                    <label>
+                        <span>Email</span>
+                        <input type="email" / id="email">
+                    </label>
+                    <label>
+                        <span>Password</span>
+                        <input type="password" / id="password">
+                    </label>
+                    <p class="forgot-pass">Forgot password?</p>
+                    <button type="button" class="submit" onclick="login()">Sign In</button>
+                 
+                </div>
+                <div class="sub-cont">
+                    <div class="img">
+                        <div class="img__text m--up">
+                         
+                            <h3>Don't have an account? Please Sign up!<h3>
+                        </div>
+                        <div class="img__text m--in">
+                        
+                            <h3>If you already has an account, just sign in.<h3>
+                        </div>
+                        <div class="img__btn">
+                            <span class="m--up">Sign Up</span>
+                            <span class="m--in">Sign In</span>
+                        </div>
+                    </div>
+                    <div class="form sign-up">
+                        <h2>Create your Account</h2>
+                        <label>
+                            <span>Name</span>
+                            <input type="text" / id="name">
+                        </label>
+                        <label>
+                            <span>Email</span>
+                            <input type="email" / id="email">
+                        </label>
+                        <label>
+                            <span>Password</span>
+                            <input type="password" / id="password">
+                        </label>
+                        <button type="button" class="submit" onclick="register()">Sign Up</button>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    </main>
+</body>
+
+<script src="../js/java.js"></script>
+</html>
