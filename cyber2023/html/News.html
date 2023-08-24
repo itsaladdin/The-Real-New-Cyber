@@ -14,15 +14,23 @@
 <body id="newsbody">
     <head>
         <nav>
-            <ul id="ul1">
-                <a href="index.html"><li><img src="../img/logo-cybergymnasiet.png" alt="logo"></li></a>
-            </ul>
-            <ul id="ul2">
-                <a href="../index.html" ><li>Hem</li></a>
-                <a href="../html/home-about.html"><li>Handlar om</li></a>
-                <a href="../html/News.html"class="active"><li>Nyheter</li></a>
-                <a href="../html/sign-in.html"><li>Logga in</li></a>
-            </ul>
+
+            <div class="hamburger-menu"></div>'
+                <ul id="ul1">
+                    <a href="index.html"><li><img src="../img/logo-cybergymnasiet.png" alt="logo"></li></a>
+                </ul>
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                <ul class="menu__box" id="ul2">
+                    <a href="index.html" id="active" class="menu__item"><li>Hem</li></a>
+                    <a href="home-about.html" class="menu__item"><li>Om Oss</li></a>
+                    <a href="News.html" class="menu__item"><li>Nyheter</li></a>
+                    <a href="sign-in.html" class="menu__item"><li>logga in</li></a>
+                </ul>
+            </div>
+
         </nav>
     </head>
     <main>
