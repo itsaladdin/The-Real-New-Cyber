@@ -460,21 +460,21 @@ gap: 30px;
 #homaside1
 {
   border: 2px solid transparent;
-  background: url(../img/ping1\ \(2\).jpg);
+  /* background: url(../img/ping1\ \(2\).jpg); */
   margin-left: 10px;
   height: 200px;
   width: 350px;
   background-repeat: no-repeat;
   background-size:cover ;
   cursor: pointer;
+  position:static;
 }
 #homaside1 img
 {
-  position: relative;
-  transform: rotate(-270deg);
   width: 200px;
-  margin-top: 78px;
-  left: -155px;
+  height: 200px;
+  margin-top: 0px;
+  margin-left:-72px;
 }
 #homaside1 #homtext
 {
@@ -526,21 +526,21 @@ gap: 30px;
 #homaside2
 {
    border: 2px solid transparent;
-   background: url(../img/chess.jpg);
+   /* background: url(../img/chess.jpg); */
    margin-left: 10px;
    height: 200px;
    width: 350px;
    background-repeat: no-repeat;
    background-size:cover ;
    cursor: pointer;
+   position:static;
 }
  #homaside2 img
 {
-   position: relative;
-   transform: rotate(-270deg);
-   width: 200px;
-   margin-top: 78px;
-   left: -155px;
+  width: 200px;
+  height: 200px;
+  margin-top: 0px;
+  margin-left:-72px;
 }
  #homaside2 #homtext
 {
@@ -593,21 +593,21 @@ cursor: pointer;
 #homaside3
 {
   border: 2px solid transparent;
-  background: url(../img/dart.jpg);
+  /* background: url(../img/dart.jpg); */
   margin-left: 10px;
   height: 200px;
   width: 350px;
   background-repeat: no-repeat;
   background-size:cover ;
   cursor: pointer;
+  position:static;
 }
 #homaside3 img
 {
-  position: relative;
-  transform: rotate(-270deg);
   width: 200px;
-  margin-top: 78px;
-  left: -155px;
+  height: 200px;
+  margin-top: 0px;
+  margin-left:-72px;
 }
 #homaside3 #homtext
 {
@@ -623,7 +623,8 @@ cursor: pointer;
 {
 color: #F2EAD3;
 margin-top: 10px;
-word-break: 100%;
+width: 110px;
+overflow-wrap: break-word;
 font-size: 20px;
 margin-left: 15px;
 letter-spacing: 5px;
@@ -661,21 +662,21 @@ cursor: pointer;
 #homaside4
 {
   border: 2px solid transparent;
-  background: url(../img/gaming.jpg);
+  /* background: url(../img/gaming.jpg); */
   margin-left: 10px;
   height: 200px;
   width: 350px;
   background-repeat: no-repeat;
   background-size:cover ;
   cursor: pointer;
+  position:static;
 }
 #homaside4 img
 {
-  position: relative;
-  transform: rotate(-270deg);
   width: 200px;
-  margin-top: 78px;
-  left: -155px;
+  height: 200px;
+  margin-top: 0px;
+  margin-left:-72px;
 }
 #homaside4 #homtext
 {
@@ -728,21 +729,21 @@ cursor: pointer;
 #homaside5
 {
   border: 2px solid transparent;
-  background: url(../img/running.jpg);
+  /* background: url(../img/running.jpg); */
   margin-left: 10px;
   height: 200px;
   width: 350px;
   background-repeat: no-repeat;
   background-size:cover ;
   cursor: pointer;
+  position:static;
 }
 #homaside5 img
 {
-  position: relative;
-  transform: rotate(-270deg);
   width: 200px;
-  margin-top: 78px;
-  left: -155px;
+  height: 200px;
+  margin-top: 0px;
+  margin-left:-72px;
 }
 #homaside5 #homtext
 {
@@ -795,21 +796,21 @@ cursor: pointer;
 #homaside6
 {
   border: 2px solid transparent;
-  background: url(../img/spelling.jpg);
+  /* background: url(../img/spelling.jpg); */
   margin-left: 10px;
   height: 200px;
   width: 350px;
   background-repeat: no-repeat;
   background-size:cover ;
   cursor: pointer;
+  position:static;
 }
 #homaside6 img
 {
-  position: relative;
-  transform: rotate(-270deg);
   width: 200px;
-  margin-top: 78px;
-  left: -155px;
+  height: 200px;
+  margin-top: 0px;
+  margin-left:-72px;
 }
 #homaside6 #homtext
 {
@@ -825,7 +826,8 @@ cursor: pointer;
 {
 color: #F2EAD3;
 margin-top: 30px;
-width: 100px;
+width: 120px;
+overflow-wrap: break-word;
 font-size: 20px;
 margin-left: 15px;
 letter-spacing: 5px;
