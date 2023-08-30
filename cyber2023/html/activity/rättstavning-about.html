@@ -8,20 +8,29 @@
         <link rel="icon" href="../../img/cyber.logo-black.png">
         <link rel="stylesheet" href="../../css/style.css">
         <link rel="stylesheet" href="../../css/action.css">
+        <link rel="stylesheet" href="../../css/mobile.css">
         <title>Rättstavning</title>
     </head>
 <body>
     <head>
         <nav>
-            <ul id="ul1">
-                <a href="../../index.html"><li><img src="../../img/logo-cybergymnasiet.png" alt="logo"></li></a>
-            </ul>
-            <ul id="ul2">
-                <a href="../../index.html" ><li>Hem</li></a>
-                <a href="pingis-about.html"class="active"><li>Handlar om</li></a>
-                <a href="../../html/News.html"><li>Nyheter</li></a>
-                <a href="../../html/sign-in.html"><li>logga in</li></a>
-            </ul>
+
+            <div class="hamburger-menu"></div>'
+                <ul id="ul1">
+                    <a href="../../index.html"><li><img src="../../img/cyber.logo-black.png" alt="logo"></li></a>
+                </ul>
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                <ul class="menu__box" id="ul2">
+                    <a href="../../index.html" class="menu__item"><li>Hem</li></a>
+                    <a href="./rättstavning-about.html" id="active"class="menu__item"><li>Om Oss</li></a>
+                    <a href="../News.html" class="menu__item"><li>Nyheter</li></a>
+                    <a href="../sign-in.html" class="menu__item"><li>logga in</li></a>
+                </ul>
+            </div>
+
         </nav>
     </head>
     <main>
