@@ -1,4 +1,4 @@
-body
+#body
 {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     background: #ffffff;
@@ -51,6 +51,10 @@ a
 {
     width: 100px;
     margin-top: 30px;
+}
+#menu__toggle
+{
+  display: none;
 }
 before,
 *:after {
