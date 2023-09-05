@@ -54,7 +54,6 @@ top: 8px;
 }
 .menu__box {
 display: block;
-position: fixed;
 position: absolute;
 top: 0;
 left: -100%;
@@ -140,9 +139,19 @@ height: 5px;
   width: 100px;
   margin-top: 30px;
 }
+div #sec1
+{
+  position: relative;
+  z-index: 1;
+}
+div nav
+{
+  position: absolute;
+  z-index: 2;
+}
 #sec1 video
 {
-  margin-top: 50px;
+  margin-top: 150px;
   width: 95%;
   border: 1px solid white;
   margin-left: 10px;
