@@ -3,66 +3,50 @@
  #homaside1
  {
      border: 2px solid transparent;
-     /* background: url(../img/homaside1.jpeg); */
-     background-position: left 800px center;
-     background-repeat: no-repeat;
-     background-size: 90%;
      display: grid;
-     grid-template-columns: 63% 30%;
-     height: 300px;
-     margin-left: 100px;
-     margin-right: 100px;
-     margin-top: 100px;
-     position: static;
+     width: 97%;
+     grid-template-columns: 63% 37%;
+     margin-left: 1%;
+     height: 100%;
+     margin-top: 5%;
      cursor: pointer;
  }
    #homaside1 img
  {
      width: 100%;
-     margin-top: 0px;
-    margin-left:-100px;
+     height: 100%;
  }
    #homaside1 #homtext
  {
      color: white;
      background-image:linear-gradient(3000deg, #080202 5%, #080202 8%,#526D82 30%, #526D82 63%, #FFFF 80%); 
-     display: grid;
-     grid-template-columns: 40% 60%;
-     gap: 20PX;
  }
  #homaside1 h2
  {
      color: #F2EAD3;
      font-size: 60px;
-     margin-left: 110px;
+     margin-left: 7%;
      letter-spacing: 40px;
+     height: 10%;
  }
  #homaside1 h4
  {
      color: #9DB2BF;
+     overflow-wrap: break-word;
+     width: 50%;
      font-size: 20px;
-     margin-left: 80px;
-     margin-top: -70px;
-     width: 150%;
- }
+     margin-left: 7%; 
+     height: 40%;
+}
  #homaside1 button
  {
      color: white;
      background-color: #04AA6D;
-     width: 200px;
-     height: 50px;
-     margin-top: 100px;
+     width:25%;
+     height: 10%;
      border-radius: 50px;
-     margin-left: 250px;
+     margin-left: 7%;
      cursor: pointer;
- }
-   .wavy
- {
-     position: absolute;
-     transform: rotate(-45deg);
-     width: 350px;
-     height: 290px;
-     left: 400px;
  }
   /* -------------------------Home-About----------------------------- */
 
@@ -72,59 +56,51 @@
   }
   #homaside2
   {
-      border: 2px solid transparent;
-      /* background: url(../img/chess.jpg); */
-      background-position: left 800px center;
-      background-repeat: no-repeat;
-      background-size: 40%;
-      display: grid;
-      grid-template-columns: 63% 30%;
-      height: 300px;
-      margin-left: 100px;
-      margin-right: 100px;
-      margin-top: 130px;
-      position: static;
-      cursor: pointer;
+    border: 2px solid transparent;
+    display: grid;
+    width: 97%;
+    grid-template-columns: 63% 37%;
+    margin-left: 1%;
+    height: 100%;
+    margin-top: 5%;
+    cursor: pointer;
   }
     #homaside2 img
   {
     width: 100%;
-    margin-top: 0px;
-   margin-left:-100px;
+    height: 100%;
   }
     #homaside2 #homtext
   {
-      color: white;
-      background-image:linear-gradient(3000deg, #080202 5%, #080202 8%,#526D82 30%, #526D82 63%, #FFFF 80%); 
-      display: grid;
-      grid-template-columns: 40% 60%;
-      gap: 20PX;
+    color: white;
+    background-image:linear-gradient(3000deg, #080202 5%, #080202 8%,#526D82 30%, #526D82 63%, #FFFF 80%); 
   }
   #homaside2 h2
   {
-      color: #F2EAD3;
-      font-size: 60px;
-      margin-left: 110px;
-      letter-spacing: 40px;
+    color: #F2EAD3;
+    font-size: 60px;
+    margin-left: 7%;
+    letter-spacing: 40px;
+    height: 10%;
   }
   #homaside2 h4
   {
-      color: #9DB2BF;
-      font-size: 20px;
-      margin-left: 80px;
-      margin-top: -70px;
-      width: 150%;
+    color: #9DB2BF;
+    overflow-wrap: break-word;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 7%; 
+    height: 40%;
   }
   #homaside2 button
   {
-      color: white;
-      background-color: #04AA6D;
-      width: 200px;
-      height: 50px;
-      margin-top: 100px;
-      border-radius: 50px;
-      margin-left: 250px;
-      cursor: pointer;
+    color: white;
+    background-color: #04AA6D;
+    width:25%;
+    height: 10%;
+    border-radius: 50px;
+    margin-left: 7%;
+    cursor: pointer;
   }
     .wavy
   {
@@ -136,62 +112,54 @@
   }
    /* -------------------------Home-About----------------------------- */
 
- #homaside3
- {
+   #homaside3
+   {
      border: 2px solid transparent;
-     /* background: url(../img/dart.jpg); */
-     background-position: left 800px center;
-     background-repeat: no-repeat;
-     background-size: 40%;
      display: grid;
-     grid-template-columns: 63% 30%;
-     height: 300px;
-     margin-left: 100px;
-     margin-right: 100px;
-     margin-top: 100px;
-     position: static;
+     width: 97%;
+     grid-template-columns: 63% 37%;
+     margin-left: 1%;
+     height: 100%;
+     margin-top: 5%;
      cursor: pointer;
- }
-   #homaside3 img
- {
-    width: 100%;
-    margin-top: 0px;
-   margin-left:-100px;
- }
-   #homaside3 #homtext
- {
+   }
+     #homaside3 img
+   {
+     width: 100%;
+     height: 100%;
+   }
+     #homaside3 #homtext
+   {
      color: white;
      background-image:linear-gradient(3000deg, #080202 5%, #080202 8%,#526D82 30%, #526D82 63%, #FFFF 80%); 
-     display: grid;
-     grid-template-columns: 40% 60%;
-     gap: 20PX;
- }
- #homaside3 h2
- {
+   }
+   #homaside3 h2
+   {
      color: #F2EAD3;
      font-size: 60px;
-     margin-left: 110px;
-     letter-spacing: 5px;
- }
- #homaside3 h4
- {
+     margin-left: 7%;
+     letter-spacing: 15px;
+     height: 10%;
+   }
+   #homaside3 h4
+   {
      color: #9DB2BF;
+     overflow-wrap: break-word;
+     width: 50%;
      font-size: 20px;
-     margin-left: 80px;
-     margin-top: -70px;
-     width: 150%;
- }
- #homaside3 button
- {
+     margin-left: 7%; 
+     height: 40%;
+   }
+   #homaside3 button
+   {
      color: white;
      background-color: #04AA6D;
-     width: 200px;
-     height: 50px;
-     margin-top: 100px;
+     width:25%;
+     height: 10%;
      border-radius: 50px;
-     margin-left: 250px;
+     margin-left: 7%;
      cursor: pointer;
- }
+   }
    .wavy
  {
      position: absolute;
@@ -204,59 +172,51 @@
 
   #homaside4
   {
-      border: 2px solid transparent;
-      /* background: url(../img/gaming.jpg); */
-      background-position: left 800px center;
-      background-repeat: no-repeat;
-      background-size: 40%;
-      display: grid;
-      grid-template-columns: 63% 30%;
-      height: 300px;
-      margin-left: 100px;
-      margin-right: 100px;
-      margin-top: 100px;
-      position: static;
-      cursor: pointer;
+    border: 2px solid transparent;
+    display: grid;
+    width: 97%;
+    grid-template-columns: 63% 37%;
+    margin-left: 1%;
+    height: 100%;
+    margin-top: 5%;
+    cursor: pointer;
   }
     #homaside4 img
   {
     width: 100%;
-    margin-top: 0px;
-   margin-left:-100px;
+    height: 100%;
   }
     #homaside4 #homtext
   {
-      color: white;
-      background-image:linear-gradient(3000deg, #080202 5%, #080202 8%,#526D82 30%, #526D82 63%, #FFFF 80%); 
-      display: grid;
-      grid-template-columns: 40% 60%;
-      gap: 20PX;
+    color: white;
+    background-image:linear-gradient(3000deg, #080202 5%, #080202 8%,#526D82 30%, #526D82 63%, #FFFF 80%); 
   }
   #homaside4 h2
   {
-      color: #F2EAD3;
-      font-size: 60px;
-      margin-left: 110px;
-      letter-spacing: 40px;
+    color: #F2EAD3;
+    font-size: 60px;
+    margin-left: 7%;
+    letter-spacing: 40px;
+    height: 10%;
   }
   #homaside4 h4
   {
-      color: #9DB2BF;
-      font-size: 20px;
-      margin-left: 80px;
-      margin-top: -70px;
-      width: 150%;
+    color: #9DB2BF;
+    overflow-wrap: break-word;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 7%; 
+    height: 40%;
   }
   #homaside4 button
   {
-      color: white;
-      background-color: #04AA6D;
-      width: 200px;
-      height: 50px;
-      margin-top: 100px;
-      border-radius: 50px;
-      margin-left: 250px;
-      cursor: pointer;
+    color: white;
+    background-color: #04AA6D;
+    width:25%;
+    height: 10%;
+    border-radius: 50px;
+    margin-left: 7%;
+    cursor: pointer;
   }
     .wavy
   {
@@ -270,60 +230,52 @@
 
  #homaside5
  {
-     border: 2px solid transparent;
-     /* background: url(../img/running.jpg); */
-     background-position: left 800px center;
-     background-repeat: no-repeat;
-     background-size: 40%;
-     display: grid;
-     grid-template-columns: 63% 30%;
-     height: 300px;
-     margin-left: 100px;
-     margin-right: 100px;
-     margin-top: 100px;
-     position: static;
-     cursor: pointer;
+  border: 2px solid transparent;
+  display: grid;
+  width: 97%;
+  grid-template-columns: 63% 37%;
+  margin-left: 1%;
+  height: 100%;
+  margin-top: 5%;
+  cursor: pointer;
  }
    #homaside5 img
  {
-    width: 100%;
-    height: 300px;
-    margin-top: 0px;
-    margin-left:-100px;
+  width: 100%;
+  height: 100%;
  }
    #homaside5 #homtext
  {
-     color: white;
-     background-image:linear-gradient(3000deg, #080202 5%, #080202 8%,#526D82 30%, #526D82 63%, #FFFF 80%); 
-     display: grid;
-     grid-template-columns: 40% 60%;
-     gap: 20PX;
+  color: white;
+  background-image:linear-gradient(3000deg, #080202 5%, #080202 8%,#526D82 30%, #526D82 63%, #FFFF 80%); 
  }
  #homaside5 h2
  {
-     color: #F2EAD3;
-     font-size: 60px;
-     margin-left: 110px;
-     letter-spacing: 30px;
+  color: #F2EAD3;
+  width: 10%;
+  font-size: 50px;
+  margin-left: 7%;
+  letter-spacing: 40px;
+  height: 10%;
  }
  #homaside5 h4
  {
-     color: #9DB2BF;
-     font-size: 20px;
-     margin-left: 80px;
-     margin-top: -70px;
-     width: 150%;
+  color: #9DB2BF;
+  overflow-wrap: break-word;
+  width: 50%;
+  font-size: 20px;
+  margin-left: 7%; 
+  height: 40%;
  }
  #homaside5 button
  {
-     color: white;
-     background-color: #04AA6D;
-     width: 200px;
-     height: 50px;
-     margin-top: 100px;
-     border-radius: 50px;
-     margin-left: 250px;
-     cursor: pointer;
+  color: white;
+  background-color: #04AA6D;
+  width:25%;
+  height: 10%;
+  border-radius: 50px;
+  margin-left: 7%;
+  cursor: pointer;
  }
    .wavy
  {
@@ -337,60 +289,51 @@
 
   #homaside6
   {
-      border: 2px solid transparent;
-      /* background: url(../img/spelling.jpg); */
-      background-position: left 800px center;
-      background-repeat: no-repeat;
-      background-size: 40%;
-      display: grid;
-      grid-template-columns: 63% 30%;
-      height: 300px;
-      margin-left: 100px;
-      margin-right: 100px;
-      margin-top: 70px;
-      position: static;
-      cursor: pointer;
+    border: 2px solid transparent;
+    display: grid;
+    width: 97%;
+    grid-template-columns: 63% 37%;
+    margin-left: 1%;
+    height: 100%;
+    margin-top: 5%;
+    cursor: pointer;
   }
     #homaside6 img
   {
     width: 100%;
-    height: 300px;
-    margin-top: 0px;
-   margin-left:-100px;
+    height: 100%;
   }
     #homaside6 #homtext
   {
-      color: white;
-      background-image:linear-gradient(3000deg, #080202 5%, #080202 8%,#526D82 30%, #526D82 63%, #FFFF 80%); 
-      display: grid;
-      grid-template-columns: 40% 60%;
-      gap: 20PX;
+    color: white;
+    background-image:linear-gradient(3000deg, #080202 5%, #080202 8%,#526D82 30%, #526D82 63%, #FFFF 80%); 
   }
   #homaside6 h2
   {
-      color: #F2EAD3;
-      font-size: 60px;
-      margin-left: 110px;
-      letter-spacing:1px;
+    color: #F2EAD3;
+    font-size: 40px;
+    margin-left: 7%;
+    letter-spacing: 15px;
+    height: 10%;
   }
   #homaside6 h4
   {
-      color: #9DB2BF;
-      font-size: 20px;
-      margin-left: 80px;
-      margin-top: -70px;
-      width: 150%;
+    color: #9DB2BF;
+    overflow-wrap: break-word;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 7%; 
+    height: 40%;
   }
   #homaside6 button
   {
-      color: white;
-      background-color: #04AA6D;
-      width: 200px;
-      height: 50px;
-      margin-top: 100px;
-      border-radius: 50px;
-      margin-left: 250px;
-      cursor: pointer;
+    color: white;
+    background-color: #04AA6D;
+    width:25%;
+    height: 10%;
+    border-radius: 50px;
+    margin-left: 7%;
+    cursor: pointer;
   }
     .wavy
   {
@@ -440,6 +383,7 @@
     border-radius: 50px;
     width: 200px;
     padding-top: 10px;
+    transition: 1s;
 }
 #action div:hover
 {
