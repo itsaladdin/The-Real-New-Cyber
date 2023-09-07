@@ -337,13 +337,8 @@ footer
 }
  .leftnews button
 {
-  text-align: center;
   margin-left: 25%;
   margin-top: 20px;
-  border: 1px solid green;
-  width: 150px;
-  height: 50px;
-
 } 
 /* checkMeOut */
 #check{
@@ -353,15 +348,19 @@ footer
   display: none;
 }
 .label2{
-  text-transform: uppercase;
   display: inline-block;
-  margin-left: 25%;
+  margin-left: 20%;
   margin-top: 20%;
+  padding-top: 5%;
+  padding-left: 10%;
   margin-bottom: 1rem;
-  color: snow;
+  color: black;
   cursor: pointer;
-  text-decoration: underline;
   font-size: 140%;
+  border: 2px solid green;
+  width: 150px;
+  height: 2.5rem;
+  background-color: snow;
 }
 #check:checked ~ * .morediv{
   display: block;

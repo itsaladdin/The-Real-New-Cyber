@@ -1146,7 +1146,9 @@ footer
     margin-left: 250px;
 }
  /* -------------------------Home-About----------------------------- */
-
+ #a-sec1 #action{
+  flex-wrap: wrap;
+}
 .newstext
 {
   color: black;
