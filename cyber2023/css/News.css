@@ -1,58 +1,4 @@
-body
-{
-    background-color: #03001C; 
-    filter: brightness(120%);
-    overflow-x: hidden;
-}
-nav
-{
-    height: 70px;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    background-color: black;
-    position: sticky;
-    top: 0;
-    margin-top: 20px;
-}
-nav ul li
-{
-    list-style: none;
-    color: white; 
-    font-size: medium;
-    margin-top: -20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#ul1 img
-{
-    float: left;
-    width: 100px;
-    height: 80px;
-    margin-top: 0px;
-}
-a
-{
-    text-decoration: none;
-}
-#active
-{ 
-  background-color: #04AA6D;
-  color: white;
-  height: 5px;
-}
-#ul2
-{
- 
-    display: grid;
-    grid-template-columns:auto auto auto auto;
-    justify-content: space-evenly;
-    text-align: center;
-    width: 200px;
-}
-#ul2 a
-{
-    width: 100px;
-    margin-top: 30px;
-}
+
 #sec1 video
 {
     margin-top: 100px;
@@ -266,14 +212,15 @@ footer
   
   .newstext
 {
-    color: black;
+    color: snow;
     text-align: center;
-    margin-top: 5%;
-    font-size: 50px;
+    font-size: 50px; 
+    margin: 1% 0;
 }
   #newsbody
 {
-  background:linear-gradient(0deg, #FFFBF5 10%, #FFFBF5 20% );
+  background-color: #03001C;
+  color: snow;
 }
  .newsbar
 {
@@ -295,13 +242,15 @@ footer
 }
  .leftnews img 
 {
+  border: 1px solid white;
+  box-shadow: 1px 1px black, -1em 0 .4em black;
   width: 100%;
-  height: 350px;
+  height: 100%;
 }
 .leftnews .middle
 {
-  width: 350px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
 }
  #newsaside
 {
@@ -309,7 +258,7 @@ footer
   grid-template-columns: 45% 25% 25%;
   margin-left: 5%;
   margin-right: 0%;
-  margin-top: 5%;
+  margin-top: 1%;
   gap: 20px;
 }
  .leftnews .heads1
@@ -322,8 +271,8 @@ footer
 }
 .leftnews .heads3
 {
-  font-size: 40px;
-  margin-top: -10px;
+  font-size: 35px;
+  margin-top: -1px;
 }
  .leftnews .roundimg
 {
@@ -334,14 +283,36 @@ footer
 }
  .leftnews button
 {
-  text-align: center;
-  margin-left: 100px;
+  margin-left: 25%;
   margin-top: 20px;
-  border: 1px solid green;
-  width: 150px;
-  height: 50px;
-  text-transform: uppercase;
+} 
+/* checkMeOut */
+#check{
+  display: none;
 }
+.morediv{
+  display: none;
+}
+.label2{
+  display: inline-block;
+  border-radius: 50px;
+  margin-left: 20%;
+  margin-top: 20%;
+  padding-top: 5%;
+  padding-left: 20%;
+  margin-bottom: 1rem;
+  color: white;
+  cursor: pointer;
+  font-size: 140%;
+  border: 2px solid green;
+  width: 150px;
+  height: 2.5rem;
+  background-color: transparent;
+}
+#check:checked ~ * .morediv{
+  display: block;
+}
+/*  */
  #rightside
 {
   display: flex;
@@ -355,3 +326,121 @@ footer
 {
   display: none;
 }
+/* -------------footer------------- */
+footer 
+{
+    border-top: 1px solid grey;
+    color: white;
+    background-color: black;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding-bottom: 1%;
+}
+  .container
+{
+    display: grid;
+    grid-template-columns: 10% 10% 40%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+  
+  .row h3 
+{
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+}
+  
+  .row ul 
+{
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+}
+  
+  .row ul a 
+{
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+}
+  
+  .row ul a:hover 
+{
+    opacity:0.8;
+}
+  .item.text 
+{
+    margin-bottom:36px;
+    margin-top: -23px;
+}
+  
+  .item.text p
+{
+    opacity:0.6;
+    margin-bottom:0;
+}
+  
+  .item.social 
+{
+    text-align:center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-left: -40px;
+    margin-bottom: 25px;
+}
+  
+  .item.social > a 
+{
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+}
+  
+  .item.social > a:hover 
+{
+    opacity:0.9;
+}
+  .copyright 
+{
+    text-align:center;
+    padding-top:5px;
+    opacity:0.3;
+    margin-right: 375px;
+    font-size:13px;
+    margin-bottom:0;
+    width: 130px;
+}
+.yousef{
+  display: flex;
+  gap: 100px;
+  margin-bottom: 30px;
+  margin-top: -65px;
+  margin-left: 100px;
+}
+  .footer-img
+{
+    height: 80px;
+    width: 120px;
+    margin-left: 0px;
+    margin-top: -20px;
+}
+  .yousef{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 30px;
+    margin-top: -65px;
+    margin-left: 100px;
+  }
