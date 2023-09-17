@@ -8,11 +8,13 @@ nav
 {
     height: 70px;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 60% 40%;
     background-color: black;
     position: sticky;
     top: 0;
     margin-top: 20px;
+    border-bottom: 1px snow solid;
+    border-top: 1px snow  solid;
 }
 nav ul li
 {
@@ -22,11 +24,15 @@ nav ul li
     margin-top: -20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.ul1{
+  margin-top: 0rem;
+}
 #ul1 img
 {
     float: left;
     width: 100px;
     height: 80px;
+    margin-top: -2px;
 }
 a
 {
@@ -45,7 +51,8 @@ a
     grid-template-columns:auto auto auto auto;
     justify-content: space-evenly;
     text-align: center;
-    width: 200px;
+    width: 100%;
+    padding-left: 0;
 }
 #ul2 a
 {
@@ -147,120 +154,6 @@ a
     text-transform: uppercase;
     transition: 1s;
 }
-/* -------------footer------------- */
-footer 
-{
-    color:#FFFBF5;
-    background-color:transparent;
-}
-  .container
-{
-    display: grid;
-    grid-template-columns: 10% 10% 40%;
-    justify-content: space-evenly;
-    margin-top: 40px;
-}
-  
-  .row h3 
-{
-    margin-top:0;
-    margin-bottom:12px;
-    font-weight:bold;
-    font-size:16px;
-}
-  
-  .row ul 
-{
-    padding:0;
-    list-style:none;
-    line-height:1.6;
-    font-size:14px;
-    margin-bottom:0;
-}
-  
-  .row ul a 
-{
-    color:inherit;
-    text-decoration:none;
-    opacity:0.6;
-}
-  
-  .row ul a:hover 
-{
-    opacity:0.8;
-}
-  .item.text 
-{
-    margin-bottom:36px;
-    margin-top: -23px;
-}
-  
-  .item.text p
-{
-    opacity:0.6;
-    margin-bottom:0;
-}
-  
-  .item.social 
-{
-    text-align:center;
-    display: flex;
-    justify-content: space-evenly;
-    width: 300px;
-    margin-left: -40px;
-    margin-bottom: 25px;
-}
-  
-  .item.social > a 
-{
-    font-size:20px;
-    width:36px;
-    height:36px;
-    line-height:36px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-    margin:0 8px;
-    color:#fff;
-    opacity:0.75;
-}
-  
-  .item.social > a:hover 
-{
-    opacity:0.9;
-}
-  .copyright 
-{
-    text-align:center;
-    padding-top:5px;
-    opacity:0.3;
-    margin-right: 375px;
-    font-size:13px;
-    margin-bottom:0;
-    width: 130px;
-}
-.yousef{
-  display: flex;
-  gap: 100px;
-  margin-bottom: 30px;
-  margin-top: -65px;
-  margin-left: 100px;
-}
-  .footer-img
-{
-    height: 80px;
-    width: 120px;
-    margin-left: 0px;
-    margin-top: -20px;
-}
-  .yousef{
-    display: flex;
-    gap: 100px;
-    margin-bottom: 30px;
-    margin-top: -65px;
-    margin-left: 100px;
-  }
   /* -------------------------Home-About----------------------------- */
   
   .newstext
@@ -298,7 +191,7 @@ footer
   border: 1px solid white;
   box-shadow: 1px 1px black, -1em 0 .4em black;
   width: 100%;
-  height: 100%;
+  height: 30rem;
 }
 .leftnews .middle
 {
@@ -308,7 +201,7 @@ footer
  #newsaside
 {
   display: grid;
-  grid-template-columns: 45% 25% 25%;
+  grid-template-columns: 70% 20%;
   margin-left: 5%;
   margin-right: 0%;
   margin-top: 1%;
@@ -324,7 +217,7 @@ footer
 }
 .leftnews .heads3
 {
-  font-size: 35px;
+  font-size: 150%;
   margin-top: -1px;
 }
  .leftnews .roundimg
@@ -348,18 +241,19 @@ footer
 }
 .label2{
   display: inline-block;
-  margin-left: 20%;
-  margin-top: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   padding-top: 5%;
-  padding-left: 10%;
-  margin-bottom: 1rem;
-  color: black;
+  margin-left: 17%;
+  color: snow;
   cursor: pointer;
   font-size: 140%;
-  border: 2px solid green;
+  border: 2px solid snow;
   width: 150px;
   height: 2.5rem;
-  background-color: snow;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 50px;
 }
 #check:checked ~ * .morediv{
   display: block;
@@ -384,14 +278,15 @@ footer
     color: white;
     background-color:transparent;
     padding-top: 1%;
-    background-color: black;
     margin-bottom: 1%;
     padding-bottom: 1%;
+    border-bottom: 1px snow solid;
+    border-top: 1px snow  solid;
 }
   .container
 {
     display: grid;
-    grid-template-columns: 10% 10% 40%;
+    grid-template-columns: 25% 10% 40%;
     justify-content: space-evenly;
     margin-top: 40px;
 }
