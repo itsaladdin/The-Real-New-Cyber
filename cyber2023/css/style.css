@@ -32,7 +32,7 @@ nav ul li
     float: left;
     width: 100px;
     height: 80px;
-    margin-top: -20px;
+    margin-top: 0%;
 }
 a
 {
@@ -57,7 +57,7 @@ a
 #ul2 a
 {
     width: 100px;
-    margin-top: 30px;
+    margin-top: 40%;
 }
 #sec1 video
 {
@@ -277,100 +277,17 @@ footer
     margin-top: -65px;
     margin-left: 100px;
   }
-  /* -------------------------Home-About----------------------------- */
   
-  .newstext
-{
-    color: black;
-    text-align: center;
-    margin-top: 5%;
-    font-size: 50px;
-}
-  #newsbody
-{
-  background:linear-gradient(0deg, #FFFBF5 10%, #FFFBF5 20% );
-}
- .newsbar
-{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 30px;
-  color: grey;
-  cursor: pointer;
-}
- .newsbar.newsbar:active
-{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 30px;
-  color: black;
-  cursor: grab;
-}
- .leftnews img 
-{
-  width: 100%;
-  height: 350px;
-}
-.leftnews .middle
-{
-  width: 350px;
-  height: 200px;
-}
- #newsaside
-{
-  display: grid;
-  grid-template-columns: 45% 25% 25%;
-  margin-left: 5%;
-  margin-right: 0%;
-  margin-top: 5%;
-  gap: 20px;
-}
- .leftnews .heads1
-{
-  font-size: 30px; 
-}
- .leftnews .heads2
-{
-  font-size: 20px;
-}
-.leftnews .heads3
-{
-  font-size: 40px;
-  margin-top: -10px;
-}
- .leftnews .roundimg
-{
-  border-radius: 50%;
-  width: 90px;
-  height: 80px;
-  margin-top: 20px;
-}
- .leftnews button
-{
-  text-align: center;
-  margin-left: 100px;
-  margin-top: 20px;
-  border: 1px solid green;
-  width: 150px;
-  height: 50px;
-  text-transform: uppercase;
-}
- #rightside
-{
-  display: flex;
-  gap: 30px;
-}
-ïnput, label
-{
-  display: none;
-}
+ 
 #menu__toggle
 {
   display: none;
 }
+<<<<<<< HEAD
   /* -------------------------Home-About----------------------------- */
+=======
+  /* -------------------------team----------------------------- */
+>>>>>>> 5132616be9b568d16923deddbcf9feabebf9e1d6
   .Team-header
    {
     text-align: center;
