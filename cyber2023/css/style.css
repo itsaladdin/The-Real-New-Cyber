@@ -83,7 +83,22 @@ a
     color: white;
     text-align: center;
 }
-#sec1 button
+#open_form
+{
+    font-size: 20px;
+    width: 50%;
+    color: black;
+    border-radius: 50px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#open_form:hover
 {
     font-size: 20px;
     width: 50%;
@@ -93,6 +108,36 @@ a
     text-transform: uppercase;
     cursor: pointer;
     background-color: green;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.snart
+{
+    font-size: 20px;
+    width: 50%;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: grey;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.snart:hover
+{
+    font-size: 20px;
+    width: 50%;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: red;
     text-align: center;
     margin-left: 350px;
     margin-top: 30px;

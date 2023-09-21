@@ -130,7 +130,22 @@ div.geS5n.AgroKb.oQYVNd
   overflow-wrap: break-word;
   width: 60%;
 }
-#sec1 button
+#open_form
+{
+  text-align: center;
+  margin-left: 25%;
+}
+#open_form:hover
+{
+  text-align: center;
+  margin-left: 25%;
+}
+.snart
+{
+  text-align: center;
+  margin-left: 25%;
+}
+.snart:hover
 {
   text-align: center;
   margin-left: 25%;
