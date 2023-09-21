@@ -146,6 +146,7 @@ div #sec1
 {
   position: relative;
   z-index: 1;
+  margin-bottom: -20%;
 }
 div nav
 {
@@ -1084,5 +1085,25 @@ input
 .form-Name label
 {
   text-align: center;
+}
+.RMoreClass{
+  display: inline-block;
+  color: snow;
+  border: 1px solid snow;
+  border-radius: 4rem;
+  margin-left: 35%;
+  margin-top: 7%;
+  width: 30%;
+  text-align: center;
+}
+#RMore{
+  display: none;
+  margin-left: 0%;
+}
+#RMore:checked ~ .moreP{
+  display: inline-block;
+}
+.moreP{
+  display: none;
 }
 }

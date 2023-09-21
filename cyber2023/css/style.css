@@ -378,3 +378,9 @@ footer
     margin-top: 5%;
     text-align: center;
    }
+   .RMoreClass{
+    display: none;
+   }
+   #RMore{
+    display: none;
+  }
