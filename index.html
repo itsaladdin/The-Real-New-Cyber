@@ -149,8 +149,8 @@ hr {
 }
 .mySlides img {
   width: 100%;
-  height: 100%;
-  display: none;
+  height: 100vh;
+  display: block;
 }
 
 /* Slideshow container */
@@ -212,26 +212,26 @@ p
 }
 </style>
 <body>
-<!-- 
+
   
   <div class="slideshow-container">
   
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="img/activity/chess(1).jpg" >
-  <div class="text">Caption Text</div> 
+    <img src="cyber2023/img/activity/löpning(3).jpg" >
+    <!-- <div class="text">Caption Text</div> -->
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="img/activity/chess(1).jpg" >
-  <div class="text">Caption Two</div> 
+    <img src="cyber2023/img/activity/löpning(1).jpg" >
+  <!--   <div class="text">Caption Two</div> -->
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="img/activity/chess(1).jpg" >
-  <div class="text">Caption Three</div> 
+    <img src="cyber2023/img/activity/löpning(5).jpg" >
+  <!--   <div class="text">Caption Three</div> -->
   </div>
   
   <div style="text-align:center">
@@ -241,11 +241,10 @@ p
   </div>
 <div class="bgimg">
   <div class="topleft">
-    <img src="img/logo/logo-cybergymnasiet.png" alt="">
-  </div> -->
-
+    <img src="cyber2023/img/logo/logo-cybergymnasiet.png" alt="">
+  </div>
   <div class="middle">
-    <h1>Cybergymnasiet</h1>
+    <h1>COMING SOON</h1>
     <hr>
     <p id="demo" style="font-size:30px"></p>
   </div>
@@ -287,7 +286,7 @@ function showSlides() {
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("sep 19, 2023 09:00:00").getTime();
+var countDownDate = new Date("sep 22, 2023 09:53:00").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
@@ -312,7 +311,7 @@ var countdownfunction = setInterval(function() {
   if (distance < 0) {
     clearInterval(countdownfunction);
     // document.getElementById("demo").innerHTML = "fuck you bitch";
-    window.location.href = "index.html";
+    window.location.href = "cyber2023/count-down.html";
   }
 }, 1000);
 </script>
