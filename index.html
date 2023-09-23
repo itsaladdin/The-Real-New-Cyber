@@ -47,7 +47,7 @@ hr {
 }
 .mySlides img {
   width: 100%;
-  height: 100%;
+  height: 931px;
 }
 
 /* Slideshow container */
@@ -120,7 +120,7 @@ hr {
   position: absolute;
   top: 0;
   left: 16px;
-  width: 50%;
+  width: 10%;
 }
 
 .bottomleft {
@@ -135,22 +135,16 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: black;
+  color: white;
 }
 
 hr {
   margin: auto;
   width: 40%;
 }
-
-.mySlides
-{
-  display: none;
-}
-.mySlides img {
+.mySlides img{
   width: 100%;
-  height: 100vh;
-  display: block;
+  height: 47rem;
 }
 
 /* Slideshow container */
@@ -209,6 +203,13 @@ p
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+}
+@media (min-width: 768px) and (max-width: 1024px)  {
+  .mySlides img{
+    width: 100%;
+    height: 68rem;
+  }
 }
 </style>
 <body>
@@ -216,51 +217,67 @@ p
   
   <div class="slideshow-container">
   
-  <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="cyber2023/img/activity/löpning(3).jpg" >
-    <!-- <div class="text">Caption Text</div> -->
-  </div>
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="cyber2023/img/activity/pingis(3).jpg" >
+      <!-- <div class="text">Caption Text</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="cyber2023/img/activity/schack(4).jpg" >
+    <!--   <div class="text">Caption Two</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="cyber2023/img/activity/spel(3).jpg" >
+    <!--   <div class="text">Caption Three</div> -->
+    </div>
   
-  <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="cyber2023/img/activity/pingis(1).jpg" >
-  <!--   <div class="text">Caption Two</div> -->
-  </div>
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="cyber2023/img/activity/pil(2).jpg" >
+    <!--   <div class="text">Caption Three</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="cyber2023/img/activity/löpning(1).jpg" >
+    <!--   <div class="text">Caption Three</div> -->
+    </div>
   
-  <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="cyber2023/img/activity/spel(3).jpg" >
-  <!--   <div class="text">Caption Three</div> -->
-  </div>
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="cyber2023/img/activity/spelling(3).jpg" >
+    <!--   <div class="text">Caption Three</div> -->
+    </div>
   
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+  <div class="bgimg">
+    <div class="topleft">
+      <img src="logo-cybergymnasiet.png" alt="">
+    </div>
+    <div class="middle">
+      <h1>STARTAR OM</h1>
+      <hr>
+      <p id="demo" style="font-size:30px"></p>
+    </div>
+    <div class="bottomleft">
+      <!-- <p>by aladdin</p> -->
+    </div>
+  </div>
+    </div>
+     
   <div style="text-align:center">
     <span class="dot"></span> 
     <span class="dot"></span> 
     <span class="dot"></span> 
-  </div>
-<div class="bgimg">
-  <div class="topleft">
-    <img src="cyber2023/img/logo/logo-cybergymnasiet.png" alt="">
-  </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p id="demo" style="font-size:30px"></p>
-  </div>
-  <div class="bottomleft">
-    <!-- <p>by aladdin</p> -->
-  </div>
-</div>
-
-  </div>
-  <br>
-<!--   
-  <div style="text-align:center">
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-  </div> -->
+  </div> 
 
 <script>
 let slideIndex = 0;
@@ -286,7 +303,7 @@ function showSlides() {
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("sep 22, 2023 14:25:00").getTime();
+var countDownDate = new Date("sep 26, 2023 10:00:00").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
@@ -311,7 +328,7 @@ var countdownfunction = setInterval(function() {
   if (distance < 0) {
     clearInterval(countdownfunction);
     // document.getElementById("demo").innerHTML = "fuck you bitch";
-    window.location.href = "cyber2023/count-down.html";
+    window.location.href = "cyber2023/index.html";
   }
 }, 1000);
 </script>
