@@ -175,16 +175,9 @@ a
   text-align: center;
   gap: 30px;
   color: grey;
-  cursor: pointer;
 }
- .newsbar.newsbar:active
-{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 30px;
-  color: black;
-  cursor: grab;
+.newsbar h4{
+  cursor: pointer;
 }
  .leftnews img 
 {

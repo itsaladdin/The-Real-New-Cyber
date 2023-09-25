@@ -1109,4 +1109,7 @@ input
 .label2{
   margin-left: 24%;
 }
+#qChange{
+  display: none;
+}
 }
