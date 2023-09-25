@@ -486,7 +486,7 @@ width: 80%;
 .leftnews .heads3
 {
 font-size: 40px;
-margin-top: -10px;
+margin-top: 10%;
 text-align: center;
 }
 .leftnews .roundimg
@@ -1105,5 +1105,8 @@ input
 }
 .moreP{
   display: none;
+}
+.label2{
+  margin-left: 24%;
 }
 }

@@ -244,23 +244,11 @@ a
 }
 .label2{
   display: inline-block;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  padding-top: 5%;
-  /* margin-left: 35%; */
-  margin-top: 10%;
-  margin-bottom: 10%;
-  border-radius: 50px;
-  /* margin-left: 20%; */
-  margin-top: 20%;
-  padding-top: 5%;
   padding-left: 0%;
   margin-bottom: 1rem;
-  color: white;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-top: 20%;
   padding-top: 5%;
-  /* margin-left: 17%; */
   color: snow;
   cursor: pointer;
   font-size: 140%;
@@ -270,9 +258,6 @@ a
   background-color: transparent;
   text-align: center;
   border-radius: 50px;
-  text-align: center;
-  border-radius: 50px;
-  /* background-color: snow; */
 }
 #check:checked ~ * .morediv{
   display: block;

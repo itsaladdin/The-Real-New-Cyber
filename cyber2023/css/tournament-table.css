@@ -32,7 +32,11 @@ body
 }
 .hero-wrap 
 {
-  padding: 3.5em 10px;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-bottom: 3.5em;
+  border-top: 1px solid snow;
+  border-bottom: 1px solid snow;
 }
 .hero p.intro 
 {
@@ -41,6 +45,7 @@ body
   letter-spacing: 1px;
   font-size: 3em;
   margin-bottom:-40px;
+  margin-top: 0;
 }
 .hero p.year 
 {
@@ -340,20 +345,18 @@ hr
   background-color: green;
 }
 button {
-  background-color: grey;
-  color: white;
+  background-color: white;
+  color: gray;
   padding: 20px 50px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 12%;
-  margin-left: 10px;
+  font-size: 15px;
+  width: 15%;
+  margin-left: -65rem;
   margin-block-start: 10px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 30px;
-}
-button:hover {
-  opacity: 0.8;
 }
