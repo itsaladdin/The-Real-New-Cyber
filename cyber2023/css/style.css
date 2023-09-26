@@ -61,10 +61,10 @@ a
 }
 #sec1 video
 {
-    margin-top: 100px;
+    margin-top: 20px;
     width: 80%;
     border: 1px solid white;
-    margin-left: 150px;
+    margin-left: 200px;
     border-radius: 50px;
     box-shadow: inset 5px 3px 4px rgba(0, 0, 0, 0.4);
 }
