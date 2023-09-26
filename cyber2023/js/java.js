@@ -6,46 +6,46 @@ document.querySelector('.img__btn').addEventListener('click', function() {
 
 
 function open_form(){
-    window.open("../form.html");
+    window.open("../../html/all-in/form.html");
     document.getElementById("open_form").style.backgroundColor = "#4E9F3D"
     document.getElementById("open_form").innerHTML="Änmalt"
 }
 function pingis(){
-  window.open("../html/activity/pingis-about.html");
+  window.open("../../html/activity/pingis-about.html");
 }
 function schack(){
-  window.open("../html/activity/schack-about.html");
+  window.open("../../html/activity/schack-about.html");
 }
 function pilkastning(){
-  window.open("../html/activity/pilkastning-about.html");
+  window.open("../../html/activity/pilkastning-about.html");
 }
 function spel(){
-  window.open("../html/activity/gaming-about.html");
+  window.open("../../html/activity/gaming-about.html");
 }
 function runing(){
-  window.open("../html/activity/löpning-about.html");
+  window.open("../../html/activity/löpning-about.html");
 }
 function speling(){
-  window.open("../html/activity/rättstavning-about.html");
+  window.open("../../html/activity/rättstavning-about.html");
 }
 // other functions fror sites
 function homaside1(){
-  window.open("./activity/pingis-about.html");
+  window.open("../../html/activity/pingis-about.html");
 }
 function homaside2(){
-  window.open("./activity/schack-about.html");
+  window.open("../../html/activity/schack-about.html");
 }
 function homaside3(){
-  window.open("./activity/pilkastning-about.html");
+  window.open("../../html/activity/pilkastning-about.html");
 }
 function homaside4(){
-  window.open("./activity/gaming-about.html");
+  window.open("../../html/activity/gaming-about.html");
 }
 function homaside5(){
-  window.open("./activity/löpning-about.html");
+  window.open("../../html/activity/löpning-about.html");
 }
 function homaside6(){
-  window.open("./activity/rättstavning-about.html");
+  window.open("../../html/activity/rättstavning-about.html");
 }
 
 let mybutton = document.getElementById("myBtn");
