@@ -5,6 +5,7 @@
   background-color: #03001C; 
   filter: brightness(120%);
   overflow-x: hidden;
+  width: 100%;
 }
 #menu__toggle {
 opacity: 0;
@@ -180,18 +181,7 @@ div nav
 }
 #sec1 button
 {
-  font-size: 20px;
-  width: 50%;
-  color: white;
-  border-radius: 50px;
-  height: 50px;
-  text-transform: uppercase;
-  cursor: pointer;
-  background-color: green;
-  text-align: center;
-  margin-left: 90px;
   margin-top: 30px;
-  margin-bottom: 50px;
 }
 #open_form
 {
@@ -201,7 +191,6 @@ div nav
     border-radius: 50px;
     height: 50px;
     text-transform: uppercase;
-    cursor: pointer;
     background-color: white;
     text-align: center;
     display: flex;
@@ -209,6 +198,7 @@ div nav
     margin-top: 30px;
     margin-bottom: 50px;
     align-items: center;
+    margin-left: 7rem;
 }
 #open_form:hover
 {
@@ -221,7 +211,7 @@ div nav
     cursor: pointer;
     background-color: green;
     text-align: center;
-    margin-left: 90px;
+    margin-left: 7rem;
     margin-top: 30px;
     margin-bottom: 50px;
 }
