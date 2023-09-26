@@ -193,6 +193,38 @@ div nav
   margin-top: 30px;
   margin-bottom: 50px;
 }
+#open_form
+{
+    font-size: 20px;
+    width: 50%;
+    color: black;
+    border-radius: 50px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+#open_form:hover
+{
+    font-size: 20px;
+    width: 50%;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: green;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 #sec1 h3:hover
 {
   color: lightskyblue;
