@@ -4,6 +4,12 @@ body
     overflow: hidden;
     color: white;
 }
+iframe
+{
+    width: 100vh;
+    height: 100vh;
+    margin-left: 25%;
+}
 nav
 {
     height: 70px;

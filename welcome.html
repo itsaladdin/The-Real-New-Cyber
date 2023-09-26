@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: #03001C; 
+ }
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  70% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+.text-animation {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slideRightToLeft 4s linear infinite;
+  animation-delay: 10s, -25s; /* Adjust the delay as needed to pause in the middle */
+}
+p{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .text-animation {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slideRightToLeft 4s linear infinite;
+  animation-delay: 10s, -25s; /* Adjust the delay as needed to pause in the middle */
+}
+p{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 50%;
+} 
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.text-animation {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slideRightToLeft 4s linear infinite;
+  animation-delay: 10s, -25s; /* Adjust the delay as needed to pause in the middle */
+}
+p{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 30%;
+} 
+}
+</style>
+<body>
+    <div>
+        <p>
+            <span class="text-animation">CybergymnasietStockholm</span> <br>
+            <span class="text-animation">presenterar </span> <br>
+            <span class="text-animation">Cyber-Kampen</span> <br><br>
+            <span class="text-animation">Välkomna till </span> <br>
+            <span class="text-animation">Cyber Got Talent</span>
+          </p> 
+    </div>
+</body>
+<script>
+    var toGameRTG = setTimeout(toGameRTG, 10000);
+    function toGameRTG(){
+        window.location.href = "cyber2023/index.html"
+    }
+</script>
+</html>
