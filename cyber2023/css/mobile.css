@@ -86,19 +86,16 @@ background-color: #CFD8DC;
 {
 display: block;
 }
-#menu__toggle
-{
-display: block;
-}
 nav
 {
   height: 70px;
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 70% 30% 0% 0%;
   background-color: black;
   position: sticky;
   top: 0;
   margin-top: 20px;
+  width: 100%;
 }
 nav ul li
 {
@@ -111,13 +108,16 @@ nav ul li
 .menu__btn
 {
   display: block;
+  margin-left: -100rem;
+  margin-top: 30px;
 }
 #ul1 img
 {
-  margin-left: 220px;
+  margin-left: 0;
   width: 100px;
   height: 80px;
-  margin-top: -20px;
+  margin-top: 0;
+  float: right;
 }
 a
 {

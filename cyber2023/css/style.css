@@ -4,6 +4,9 @@ body
     filter: brightness(120%);
     overflow-x: hidden;
 }
+.hamburger-menu{
+  display: none;
+}
 nav
 {
     height: 70px;
@@ -17,7 +20,7 @@ nav
     border-top: 1px snow  solid;
   }
   .ul1{
-    margin-top: 0rem;
+    margin-top: 30px;
   }
 nav ul li
 {
@@ -46,7 +49,7 @@ a
 }
 #ul2
 {
-    margin-top: -12px;
+    margin-top: 0;
     display: grid;
     grid-template-columns:auto auto auto auto;
     justify-content: space-evenly;
