@@ -1,337 +1,158 @@
 <!DOCTYPE html>
-<html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
-}
-
-.bgimg {
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
-
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-  width: 50%;
-}
-
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
-
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
-}
-
-.mySlidesN 
-
-{
-  display: none;
-}
-.mySlides img {
-  width: 100%;
-  height: 931px;
-}
-
-/* Slideshow container */
-.slideshow-container {
-  width: 100%;
-  margin: auto;
-  min-height: 100%;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) 
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}*/
-
-/* The dots/bullets/indicators 
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-*/
-.active {
-  background-color: #717171;
-}
-
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media (min-width: 320px) and (max-width: 480px) {
-  .text
-{
-    font-size: 11px
-}
-.bgimg {
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
-
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-  width: 10%;
-}
-
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
-
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
-}
-.mySlides img{
-  width: 100%;
-  height: 47rem;
-}
-
-/* Slideshow container */
-.slideshow-container {
-  width: 100%;
-  margin: auto;
-  height: 100%;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) 
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}*/
-
-/* The dots/bullets/indicators 
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-*/
-.active {
-  background-color: #717171;
-}
-p 
-{
-    font-size: 0px;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-}
-@media (min-width: 768px) and (max-width: 1024px)  {
-  .mySlides img{
-    width: 100%;
-    height: 68rem;
-  }
-}
-</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="icon" href="/The-Real-New-Cyber/cyber2023/img/logo/cyber.logo-black.png">
+    <link rel="stylesheet" href="/The-Real-New-Cyber/cyber2023/css/style.css">
+    <link rel="stylesheet" href="/The-Real-New-Cyber/cyber2023/css/mobile.css">
+    <link rel="stylesheet" href="/The-Real-New-Cyber/cyber2023/css/tablet.css">
+    <title>Cyber Got Talent</title>
+</head>
 <body>
+    <div id="container">
+    <head>
+        <nav>
 
-  
-  <div class="slideshow-container">
-  
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="cyber2023/img/activity/pingis(3).jpg" >
-      <!-- <div class="text">Caption Text</div> -->
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="cyber2023/img/activity/schack(4).jpg" >
-    <!--   <div class="text">Caption Two</div> -->
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="cyber2023/img/activity/spel(3).jpg" >
-    <!--   <div class="text">Caption Three</div> -->
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="cyber2023/img/activity/pil(2).jpg" >
-    <!--   <div class="text">Caption Three</div> -->
-    </div>
-    
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="cyber2023/img/activity/löpning(1).jpg" >
-    <!--   <div class="text">Caption Three</div> -->
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="cyber2023/img/activity/spelling(3).jpg" >
-    <!--   <div class="text">Caption Three</div> -->
-    </div>
-  
-    <div style="text-align:center">
-      <span class="dot"></span> 
-      <span class="dot"></span> 
-      <span class="dot"></span> 
-    </div>
-  <div class="bgimg">
-    <div class="topleft">
-      <img src="logo-cybergymnasiet.png" alt="">
-    </div>
-    <div class="middle">
-      <h1>STARTAR OM</h1>
-      <hr>
-      <p id="demo" style="font-size:30px"></p>
-    </div>
-    <div class="bottomleft">
-      <!-- <p>by aladdin</p> -->
-    </div>
-  </div>
-    </div>
-     
-  <div style="text-align:center">
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-  </div> 
+            <div class="hamburger-menu"></div>
+                <ul id="ul1">
+                    <a href="index.html"><li><img src="/The-Real-New-Cyber/cyber2023/img/logo/logo-cybergymnasiet.png" alt="logo"></li></a>
+                </ul>
 
-<script>
-let slideIndex = 0;
-showSlides();
+                    <input id="menu__toggle" type="checkbox">
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                    
+                <ul class="menu__box" id="ul2">
+                    <a href="index.html" id="active" class="menu__item"><li>Hem</li></a>
+                    <a href="/The-Real-New-Cyber/cyber2023/html/all-in/home-about.html" class="menu__item" id="qChange"><li>Om Oss</li></a>
+                    <a href="/The-Real-New-Cyber/cyber2023/html/all-in/News.html" class="menu__item"><li>Nyheter</li></a>
+                    <a href="/The-Real-New-Cyber/cyber2023/html/tournament/tournament-table-pingis-2023.html" class="menu__item"><li>Tabell</li></a>
+                </ul>
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 5 seconds
-}
+        </nav>
+    </head>
+<main>
+    <section id="sec1">
+        <video autoplay loop muted playsinline>
+            <source src="/The-Real-New-Cyber/cyber2023/video/you1!.mp4" type="video/mp4" />
+            </video>
+            <input id="RMore" type="checkbox">
+            <h3 class="text-center">Välkommen till Cyber Gymnasiet!</h3>
+            <p style="margin-bottom: 0%;"> "Välkommen till årets efterlängtade evenemang - vår skolturnering! 
+                Vi är stolta över att tillkännage den kommande tävlingen som lovar att bli
+                en episk resa. Det är din chans att bli en del av historien i vardande.
+            </p>
+            <p style="margin-top: 0%;" class="moreP"> Omfamna möjligheten att visa upp din färdigheter, idrottsmannaskap och 
+                kamratskap när du tävlar med andra elever. Den här turneringen handlar inte 
+                bara om att vinna, det handlar om de minnen du kommer att skapa, de vänskaper
+                du kommer att knyta och det arv du kommer att lämna efter dig. Så, utrustning 
+                upp, ge ditt bästa och låt oss göra den här turneringen till ett oförglömligt
+                kapitel i vår skolas historia. Gå med oss, bli en mästare och bli en del av 
+                vårt anmärkningsvärda arv!" 
+            </p>
+            <label class="RMoreClass" for="RMore">läs mer</label>
 
+    </section>
+</div>
+<aside id="inaside">
+    <section id="sec2" onclick="pingis()">
+        <a href="/The-Real-New-Cyber/cyber2023/html/activity/pingis-about.html">
+        <div class="img">
+            <img src="/The-Real-New-Cyber/cyber2023/img/activity/pingis(5).jpg" alt="">
+            <h3>Pingis Turnering</h3>
+            <button>MER INFO</button>
+        </div></a>
+    </section>
 
+    <section id="sec2" onclick="schack()">
+        <a href="/The-Real-New-Cyber/cyber2023/html/activity/schack-about.html">
+        <div class="img">
+            <img src="/The-Real-New-Cyber/cyber2023/img/activity/schack(3).jpg" alt="">
+            <h3>Schack Turnering</h3>
+            <button>MER INFO</button>
+        </div></a>
+    </section>
 
-// Set the date we're counting down to
-var countDownDate = new Date("sep 26, 2023 10:00:00").getTime();
+    <section id="sec2" onclick="pilkastning()">
+        <a href="/The-Real-New-Cyber/cyber2023/html/activity/pilkastning-about.html">
+        <div class="img">
+            <img src="/The-Real-New-Cyber/cyber2023/img/activity/pil(2).jpg" alt="">
+            <h3>Pilkastnings Turnering</h3>
+            <button>MER INFO</button>
+        </div></a>
+    </section>
+    <section id="sec2" onclick="spel()">
+        <a href="/The-Real-New-Cyber/cyber2023/html/activity/gaming-about.html">
+        <div class="img">
+            <img src="/The-Real-New-Cyber/cyber2023/img/activity/spel(4).jpg" alt="">
+            <h3>UNO Turnering</h3>
+            <button>MER INFO</button>
+        </div></a>
+    </section>
 
-// Update the count down every 1 second
-var countdownfunction = setInterval(function() {
+    <section id="sec2" onclick="runing()">
+        <a href="/The-Real-New-Cyber/cyber2023/html/activity/löpning-about.html">
+        <div class="img">
+            <img src="/The-Real-New-Cyber/cyber2023/img/activity/löpning(5).jpg" alt="">
+            <h3>Löpnings Turnering</h3>
+            <button>MER INFO</button>
+        </div></a>
+    </section>
 
-  // Get todays date and time
-  var now = new Date().getTime();
-  
-  // Find the distance between now an the count down date
-  var distance = countDownDate - now;
-  
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(countdownfunction);
-    // document.getElementById("demo").innerHTML = "fuck you bitch";
-    window.location.href = "welcome.html";
-  }
-}, 1000);
-</script>
+    <section id="sec2" onclick="speling()">
+        <a href="/The-Real-New-Cyber/cyber2023/html/activity/rättstavning-about.html">
+        <div class="img">
+            <img src="/The-Real-New-Cyber/cyber2023/img/activity/spelling(3).jpg" alt="">
+            <h3>Rättstavnings Turnering</h3>
+            <button>MER INFO</button>
+        </div></a>
+    </section>
+</aside>
 
+</main>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <h3>The Champions</h3>
+                <ul>
+                    <li><a href="/The-Real-New-Cyber/cyber2023/html/all-in/winners-table.html">Champions</a></li>
+                    <li><a href="/The-Real-New-Cyber/cyber2023/html/tournament/tournament-W.html">Tabell</a></li>
+                    <li><a href="/The-Real-New-Cyber/cyber2023/html/all-in/contact.html">Contact</a></li>
+                </ul>
+        </div>
+        <div class="row">
+            <h3>About</h3>
+                <ul>
+                    <li><a href="https://www.cybergymnasiet.se/">Cybergymnasiet</a></li>
+                    <li><a href="/The-Real-New-Cyber/cyber2023/html/all-in/Team.html">Team</a></li>
+                    <li><a href="/The-Real-New-Cyber/cyber2023/html/all-in/hosting.html">Hosting</a></li>
+                </ul>
+        </div>
+        <div class="col-md-6 item text">
+            <h3>Om Cybergymnasiet</h3>
+            <p>ateljéerna är anmärkningsvärda, de är väldigt fina, 
+               stora och det finns massor med olika material som man kan använda sig av till sina projekt. 
+               det finns också många tillfällen ... Grymma lärare och klasskamrater likaså gjorde mina tre
+               år på Cybergymnasiet till en super härlig upplevelse.</p>
+        </div>
+        <div class="col item social">
+            <a href="https://www.facebook.com/CybergymnasietStockholm/?locale=sv_SE"><i class="icon ion-social-facebook"></i></a>
+            <a href="https://twitter.com/Cybergymnasiet"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-snapchat"></i></a>
+            <a href="https://www.instagram.com/cybergymnasiet/"><i class="icon ion-social-instagram"></i></a>
+        </div>
+        <a href="https://cybergymnasiet.se/stockholm/"><img class="footer-img" src="/The-Real-New-Cyber/cyber2023/img/logo/logo-cybergymnasiet.png" alt=""></a>
+        <p class="copyright">Cybergymnasiet © 2023</p>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="../../js/action.js"></script>
+<script src="../../js/java.js"></script>
 </body>
 </html>
