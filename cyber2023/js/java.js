@@ -11,7 +11,8 @@ function open_form(){
     document.getElementById("open_form").innerHTML="Änmalt"
 }
 function pingis(){
-  window.open("../../html/activity/pingis-about.html");
+  // window.open("../../html/activity/pingis-about.html");
+  alert("Anmälningen är stängt");
 }
 function schack(){
   window.open("../../html/activity/schack-about.html");

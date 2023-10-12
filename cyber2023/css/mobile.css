@@ -3,9 +3,8 @@
   body
 {
   background-color: #03001C; 
-  filter: brightness(120%);
-  overflow-x: hidden;
-  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
 }
 #menu__toggle {
 opacity: 0;
@@ -182,7 +181,7 @@ div nav
 #open_form
 {
     font-size: 20px;
-    width: 50%;
+    width: 60%;
     color: black;
     border-radius: 50px;
     height: 50px;
@@ -194,7 +193,7 @@ div nav
     margin-top: 30px;
     margin-bottom: 50px;
     align-items: center;
-    margin-left: 7rem;
+    margin-left: 20%;
 }
 #open_form:hover
 {
@@ -207,7 +206,7 @@ div nav
     cursor: pointer;
     background-color: green;
     text-align: center;
-    margin-left: 7rem;
+    margin-left: 20%;
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -431,6 +430,10 @@ footer
   margin-top: 5%;
   font-size: 45px;
 }
+#leftsec
+{
+  display: grid;
+}
 #newsbody
 {
   background-color: #03001C;
@@ -443,6 +446,12 @@ text-align: center;
 gap: 30px;
 color: grey;
 cursor: pointer;
+}
+.leftnews img 
+{
+  border: 1px solid white;
+  box-shadow: 1px 1px black, -1em 0 .4em black;
+  width: 95%;
 }
 .newsbar.newsbar:active
 {
@@ -471,6 +480,11 @@ width: 90%;
 height: 50%;
 margin-top: -35px;
 }
+.leftnews
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 #middle
 {
   display: flex;
@@ -478,17 +492,26 @@ margin-top: -35px;
   gap: 5%;
   width: 100%;
   height: 100%;
-  margin-bottom:30% ;
-  margin-top: 15%;
+  margin-bottom:-30% ;
+  margin-top: -55%;
 }
-#newsaside
+ #newsaside
 {
-display: flex;
-flex-direction: column;
-margin-left: 5%;
-margin-right: 0%;
-margin-top: 5%;
-gap: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2%;
+  margin-top: 2%;
+}
+#leftsec img
+{
+  width: 100%;
+  height: auto;
+  margin-left: 2%;
+}
+#middle img
+{
+  width: 100%;
+  height: auto;
 }
 .leftnews .heads1
 {
@@ -1156,4 +1179,40 @@ iframe
     height: 200vh;
     margin-left: 0%;
 }
+#feedback-form {
+  display: none;
+  max-width: 300px;
+  position: absolute;
+  border: 1px solid white;
+  background-color: #03001C;
+  width: 80%;
+  height: 50%;
+  margin-top: -100%;
+  margin-left: 10% ;
+ }
+ #feedback-form h2
+ {
+ text-align: center;
+ color: snow;
+ }
+ #feedback-button
+ {
+ position: sticky;
+ color: snow;
+ margin-left: 80%;
+ font-size: 50px;
+ cursor: pointer;
+ }
+ #feedback-text
+ {
+ margin-left: -30%;
+ }
+ #sub
+ {
+  margin-right: 100%;
+  width: 50%;
+  height: 5%;
+  border-radius: 4rem;
+
+ }
 }

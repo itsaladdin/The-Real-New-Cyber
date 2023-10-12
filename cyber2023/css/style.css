@@ -67,7 +67,7 @@ a
     margin-top: 20px;
     width: 80%;
     border: 1px solid white;
-    margin-left: 125px;
+    margin-left:10%;
     border-radius: 50px;
     box-shadow: inset 5px 3px 4px rgba(0, 0, 0, 0.4);
 }
@@ -81,8 +81,8 @@ a
 #sec1 p
 {
     font-size: 20px;
-    width: 83%;
-    margin-left: 100px;
+    width: 53%;
+    margin-left: 23%;
     color: white;
     text-align: center;
 }
@@ -97,7 +97,7 @@ a
     cursor: pointer;
     background-color: white;
     text-align: center;
-    margin-left: 350px;
+    margin-left: 25%;
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -112,7 +112,7 @@ a
     cursor: pointer;
     background-color: green;
     text-align: center;
-    margin-left: 350px;
+    margin-left: 25%;
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -127,7 +127,7 @@ a
     cursor: pointer;
     background-color: grey;
     text-align: center;
-    margin-left: 350px;
+    margin-left: 25%;
     margin-top: 30px;
     margin-bottom: 50px;
 }
@@ -142,9 +142,16 @@ a
     cursor: pointer;
     background-color: red;
     text-align: center;
-    margin-left: 350px;
+    margin-left: 25%;
     margin-top: 30px;
     margin-bottom: 50px;
+}
+.red
+{ 
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: -1%;
+  color: red;
 }
 #sec1 h3:hover
 {
@@ -385,5 +392,50 @@ footer
     display: none;
    }
    #RMore{
+    display: none;
+  }
+  /* CSS styles for the feedback form (hidden by default) */
+  #feedback-form {
+   display: none;
+   max-width: 300px;
+   position: absolute;
+   border: 1px solid white;
+   width: auto;
+   height: auto;
+   margin-top: -18%;
+   margin-left: 85% ;
+  }
+  #feedback-form h2
+  {
+  text-align: center;
+  color: snow;
+  }
+  #feedback-button
+  {
+  position: sticky;
+  color: snow;
+  margin-left: 97%;
+  font-size: 50px;
+  cursor: pointer;
+  }
+  #feedback-text
+  {
+  margin-left: 20px;
+  }
+  #sub
+  {
+  margin-left: 35%;
+  width: 40%;
+  margin-bottom: 5%;
+  }
+  .style
+  {
+    color: snow;
+    text-align: center;
+    margin-top: 25%;
+    text-transform: uppercase;
+  }
+  .fa-comments
+  {
     display: none;
   }

@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-        <link rel="icon" href="../../img/cyber.logo-black.png">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="../../img/logo/cyber.logo-black.png">
         <link rel="stylesheet" href="../../css/style.css">
         <link rel="stylesheet" href="../../css/action.css">
         <link rel="stylesheet" href="../../css/mobile.css">
@@ -30,7 +31,7 @@
                     <a href="/index.html" class="menu__item"><li>Hem</li></a>
                     <a href="../all-in/home-about.html" class="menu__item" id="qChange"><li>Om Oss</li></a>
                     <a href="../all-in/News.html" class="menu__item"><li>Nyheter</li></a>
-                    <a href="cyber2023/html/tournament/tournament-table-pingis-2023.html" class="menu__item"><li>Tabell</li></a>
+                    <a href="../tournament/tournament-table-pingis-2023.html" class="menu__item"><li>Tabell</li></a>
                 </ul>
 
         </nav>
@@ -78,8 +79,21 @@
                     nudda motståndarnas sida på servern. <br>
                     ❖ Det finns en tidsgräns mellan poäng oftast två minuter för att undvika onödigt
                     dröjsmål.</p>
-                <button onclick="open_form()" id="open_form"> Intresänmalla</button>
+
+                    <h4 class="red">Anmälningen är stängt</h4>
+                    <p id="demo" style="font-size:30px"></p>
+
+                <button onclick="open_form()" id="open_form"> Intresänmallan</button>
         </section>
+        <i class="fa fa-comments" id="feedback-button"></i>
+        <div id="feedback-form">
+            <h2>Ger oss din feedback</h2>
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeBJE4EV0NO7RktTn-7JJ5k2q7C_ds3__OOMF6M-AWaIrp6gA/formResponse"method="POST"id="user-feedback" >
+                <!-- <label for="feedback-text">Your Feedback:</label> -->
+                <textarea name="entry.2071656823"id="feedback-text" cols="30" rows="10" placeholder="Meddelande"></textarea>
+                <button type="submit" id="sub">Skicka</button>
+            </form>
+        </div>
     </main>
     
     <footer style="background-color: black;">
@@ -119,7 +133,8 @@
     </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-<script src="../../js/action.js"></script>
+<!-- <script src="../../js/action.js"></script> -->
 <script src="../../js/java.js"></script>
+<script src="../../js/timer.js"></script>
 </body>
 </html>

@@ -24,3 +24,27 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+        // JavaScript code
+        const feedbackButton = document.getElementById('feedback-button');
+        const feedbackForm = document.getElementById('feedback-form');
+        const feedbackFormSubmit = document.getElementById('user-feedback');
+
+        let clickCount = 0;
+
+feedbackButton.addEventListener("click", function () {
+    clickCount++;
+
+    if (clickCount === 1) {
+      feedbackForm.style.display = "block";
+    } else if (clickCount === 2) {
+      feedbackForm.style.display = "none";
+        clickCount = 0; // Reset the click count
+    }
+});
+
+feedbackFormSubmit.addEventListener('submit', function(e) {
+    const feedbackText = document.getElementById('feedback-text').value;
+    alert(`Thank you for your feedback:\n${feedbackText}`);
+
+        });
